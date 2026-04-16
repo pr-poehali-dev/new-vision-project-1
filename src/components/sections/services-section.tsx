@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Применение
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Как работает биочар</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Повышение урожайности",
+              description: "Улучшает структуру почвы и доступность питательных веществ — рост урожая до 30–50%",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Удержание влаги",
+              description: "Пористая структура биочара удерживает воду в корневой зоне, снижая полив на 20–40%",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Секвестрация углерода",
+              description: "Связывает CO₂ в почве на сотни лет — вклад в климатическую устойчивость вашего хозяйства",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Агрономический консалтинг",
+              description: "Подберём норму внесения и стратегию применения биочара под ваши культуры и тип почвы",
               direction: "bottom",
             },
           ].map((service, i) => (
